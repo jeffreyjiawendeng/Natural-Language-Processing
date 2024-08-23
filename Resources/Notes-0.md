@@ -74,7 +74,7 @@ flowchart TD
 ### Deep Learning
 Deep learning is a subset of machine learning that involves training models with multiple layers of artificial neurons, which are inspired by the human brain's neural networks. These deep neural networks are capable of learning complex patterns and representations from data, making them highly effective for tasks such as image recognition, speech processing, and natural language understanding. A notable example of deep learning is the convolutional neural network (CNN), which excels in image classification tasks by learning hierarchical features from raw pixels. Deep learning models typically require large amounts of data and computational power for training, but their ability to learn from raw, unstructured data makes them extremely powerful for complex tasks that traditional machine learning models struggle with.
 
-![deep-learning-model](/assets/deep-learning-model.png)
+![deep-learning-model](/assets/deep-learning-model.png | width=400)
 
 ## The Mathematics Behind NLP
 
