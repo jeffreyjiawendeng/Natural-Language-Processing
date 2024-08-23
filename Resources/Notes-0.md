@@ -48,18 +48,28 @@ In the early 2000s, neural networks began to revolutionize NLP, starting with Yo
 Supervised learning is a machine learning approach where algorithms build a model based on a dataset containing both inputs and corresponding desired outputs, known as labels. The model iteratively optimizes its predictions by learning the relationship between input features and outputs through a process of minimizing error. For example, in NLP, a model might be trained for sentiment analysis to classify movie reviews as "positive" or "negative" based on labeled examples. Common supervised learning tasks include classification, where outputs are discrete categories, and regression, where outputs are continuous values. The effectiveness of supervised learning hinges on the quality and quantity of labeled data, which can be resource-intensive to obtain.
 
 ```mermaid
-graph TD;
-    Labeled Data-->Model: Supervised Learning;
-    A-->C;
-    B-->D;
-    C-->D;
+flowchart TD
+    A(["Labeled Data (text x, label y)"]) --> B["Supervised Learning"]
+    B --> C(["Model"])
 ```
 
 ### Unsupervised Learning
-In contrast to supervised learning, unsupervised learning is a machine learning approache that deals with datasets that have no labels. The primary goal of unsupervised learning is to uncover hidden patterns or structures within the data. For instance, clustering algorithms group data points into clusters based on their similarities, such as grouping customers based on purchasing behavior without predefined categories. Another common task is dimensionality reduction, where the algorithm simplifies the data by reducing the number of features while preserving essential information. Unsupervised learning is particularly useful for exploratory data analysis, though it can be challenging to interpret the results without clear labels.
+In contrast to supervised learning, unsupervised learning is a machine learning approach that deals with datasets that have no labels. The primary goal of unsupervised learning is to uncover hidden patterns or structures within the data. For instance, clustering algorithms group data points into clusters based on their similarities, such as grouping customers based on purchasing behavior without predefined categories. Another common task is dimensionality reduction, where the algorithm simplifies the data by reducing the number of features while preserving essential information. Unsupervised learning is particularly useful for exploratory data analysis, though it can be challenging to interpret the results without clear labels.
+
+```mermaid
+flowchart TD
+    A(["Unlabeled Data (text x)"]) --> B["Unsupervised Learning"]
+    B --> C(["Model"])
+```
 
 ### Self-Supervised Learning
 Self-supervised learning is a machine learning approach where the system generates labels from the input data itself, allowing the model to learn without relying on external labels. This method leverages the structure of the data to create tasks where the "labels" are intrinsic parts of the input data. For instance, in NLP, a model might be trained to predict the next word in a sentence, where the context serves as the input and the next word is the self-generated label. A popular example is BERT (Bidirectional Encoder Representations from Transformers), where the model is trained to predict masked words in sentences. Self-supervised learning is valuable because it can utilize large amounts of unlabeled data, making it scalable and reducing the reliance on manually labeled datasets.
+
+```mermaid
+flowchart TD
+    A(["Data (text x, label y)"]) --> B["Self-Supervised Learning"]
+    B --> C(["Model"])
+```
 
 ### Deep Learning
 Deep learning is a subset of machine learning that involves training models with multiple layers of artificial neurons, which are inspired by the human brain's neural networks. These deep neural networks are capable of learning complex patterns and representations from data, making them highly effective for tasks such as image recognition, speech processing, and natural language understanding. A notable example of deep learning is the convolutional neural network (CNN), which excels in image classification tasks by learning hierarchical features from raw pixels. Deep learning models typically require large amounts of data and computational power for training, but their ability to learn from raw, unstructured data makes them extremely powerful for complex tasks that traditional machine learning models struggle with.
