@@ -32,6 +32,8 @@ In the late 1980s, NLP experienced a major shift from rule-based systems to mach
 ### Neural NLP (2010-present)
 In the early 2000s, neural networks began to revolutionize NLP, starting with Yoshua Bengio's 2003 work, where a multi-layer perceptron outperformed traditional word n-gram models in language modeling. This trend accelerated with Tomáš Mikolov's introduction of recurrent neural networks (RNNs) in 2010, leading to the development of Word2vec. The 2010s saw deep learning, especially through architectures like LSTMs and Transformers, become central to NLP, significantly improving tasks like language modeling and parsing. The introduction of the Transformer architecture in 2017 by Vaswani et al. marked a major leap forward, enabling models like BERT and GPT to excel in understanding and generating natural language by leveraging pre-training on vast corpora. Subsequent models, like XLNet, further enhanced the ability to capture contextual information, pushing the boundaries of language processing. 
 
+
+
 ### Important Papers
 + [Computing Machinery and Intelligence - A.M. Turing, 1950](https://courses.cs.umbc.edu/471/papers/turing.pdf)
 + [The Georgetown-IBM Experiment](https://open.unive.it/hitrade/books/HutchinsFirst.pdf)
@@ -42,6 +44,16 @@ In the early 2000s, neural networks began to revolutionize NLP, starting with Yo
 + [Attention Is All You Need - Ashish Vaswani, 2017](https://arxiv.org/pdf/1706.03762)
 
 ## Important Machine Learning Techniques
+### Supervised Learning
+
+
+### Unsupervised Learning
+
+
+### Self-Supervised Learning
+Self-supervised learning is a type of machine learning where the system generates labels from the input data itself, allowing the model to learn without relying on external labels. This method leverages the structure of the data to create tasks where the "labels" are intrinsic parts of the input data. For instance, in natural language processing (NLP), a model might be trained to predict the next word in a sentence, where the context serves as the input and the next word is the self-generated label. A popular example is BERT (Bidirectional Encoder Representations from Transformers), where the model is trained to predict masked words in sentences. Self-supervised learning is valuable because it can utilize large amounts of unlabeled data, making it scalable and reducing the reliance on manually labeled datasets.
+
+### Deep Learning
 
 ## The Mathematics Behind NLP
 
