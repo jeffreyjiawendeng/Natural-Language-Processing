@@ -13,3 +13,6 @@ Author's Notes: As an undergraduate student at the University of Massachusetts A
 + [Grant Sanderson](https://www.youtube.com/@3blue1brown)
 
 Much love from jeff <3
+
+> [!Caution]
+> Many of the resources provided are written by a mere undergraduate student with access to the internet. Be weary of outdated, ethically questionable, and downright incorrect information. If you are more experienced in the field than I am, please contact me to correct any issues or concerns found in this repository. Thank you!

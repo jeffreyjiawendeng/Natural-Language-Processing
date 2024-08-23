@@ -1,9 +1,12 @@
 # Introduction to Natural Language Processing
 ## Natural Language Processing
 > [!WARNING]
-> The following notes assume basic programming skills (python) and mathematical skills (multivariable calculus and linear algebra).
+> The following series of notes assume basic programming skills (python) and mathematical skills (multivariable calculus and linear algebra).
 
-Natural language processing (NLP) is an interdiciplinary subfield of artificial intelligence and linguistics. Natural languages (or ordinary languages) are languages that have evolved naturally through human use. NLP primarily concerns the ability for computers to process information that is encoded into natural languages. 
+> [!NOTE]
+> Multiple sources and papers will be cited at the bottom of each page. Feel free to check them out and learn about the material for yourself :p
+
+[Natural language processing (NLP)](https://en.wikipedia.org/wiki/Natural_language_processing) is an interdiciplinary subfield of [artificial intelligence](https://en.wikipedia.org/wiki/Artificial_intelligence) and [linguistics](https://en.wikipedia.org/wiki/Linguistics). Natural languages (or ordinary languages) are languages that have evolved naturally through human use. NLP primarily concerns the ability for computers to process information that is encoded into natural languages. 
 
 ### Some low level tasks of NLP include the following: 
 + tokenization
@@ -20,10 +23,25 @@ Natural language processing (NLP) is an interdiciplinary subfield of artificial 
 + text-to-speech/text-to-image/text-to-video
 
 ## A Brief History of NLP
+### Symbolic NLP (1950-1990)
+In the 1950s, the field of NLP began to take shape with the introduction of rule-based systems, which aimed to facilitate machine translation through complex sets of specific linguistic rules. A notable early project was the Georgetown-IBM experiment in 1954, which successfully translated Russian sentences into English. These systems functioned by breaking down sentences into their grammatical components, matching each part to a set of rules, and then reconstructing the sentence in the target language. However, their inflexibility and inability to handle language nuances, idioms, or deeper contextual meanings, as well as a lack of scalability, became apparent, leading to a gradual shift towards statistical models in the 1980s and 1990s. This transition marked a significant evolution in NLP, moving from rigid, rule-based approaches to more adaptive, data-driven methods.
 
-## Landmark Papers
+### Statistical NLP (1990-2010)
+In the late 1980s, NLP experienced a major shift from rule-based systems to machine learning algorithms, driven by advances in computational power and a move away from traditional linguistic theories. This change enabled significant progress in the 1990s, particularly in machine translation, where statistical models like those developed by IBM capitalized on multilingual corpora from governmental texts. However, the success of these models was often limited by the availability of data. The 2000s brought a surge in raw language data from the web, leading to a focus on unsupervised and semi-supervised learning algorithms, which, despite being more complex and less accurate than supervised methods, benefited from the vast amounts of data available online.
 
-## Introduction to Machine Learning
+### Neural NLP (2010-present)
+In the early 2000s, neural networks began to revolutionize NLP, starting with Yoshua Bengio's 2003 work, where a multi-layer perceptron outperformed traditional word n-gram models in language modeling. This trend accelerated with Tomáš Mikolov's introduction of recurrent neural networks (RNNs) in 2010, leading to the development of Word2vec. The 2010s saw deep learning, especially through architectures like LSTMs and Transformers, become central to NLP, significantly improving tasks like language modeling and parsing. The introduction of the Transformer architecture in 2017 by Vaswani et al. marked a major leap forward, enabling models like BERT and GPT to excel in understanding and generating natural language by leveraging pre-training on vast corpora. Subsequent models, like XLNet, further enhanced the ability to capture contextual information, pushing the boundaries of language processing. 
+
+### Important Papers
++ [Computing Machinery and Intelligence - A.M. Turing, 1950](https://courses.cs.umbc.edu/471/papers/turing.pdf)
++ [The Georgetown-IBM Experiment](https://open.unive.it/hitrade/books/HutchinsFirst.pdf)
++ [The Berkeley Restaurant Project - Daniel Jurafsky, 1994](https://web.stanford.edu/~jurafsky/icslp-red.pdf)
++ [Infini-gram: Scaling Unbounded n-gram Language Models to a Trillion Tokens - Jiacheng Liu, 2024](https://arxiv.org/pdf/2401.17377)
++ [A Neural Probabilistic Language Model - Yoshua Bengio, 2003](https://dl.acm.org/doi/pdf/10.5555/944919.944966)
++ [Recurrent neural network based language model - Tomáš Mikolov, 2010](https://gwern.net/doc/ai/nn/rnn/2010-mikolov.pdf)
++ [Attention Is All You Need - Ashish Vaswani, 2017](https://arxiv.org/pdf/1706.03762)
+
+## Important Machine Learning Techniques
 
 ## The Mathematics Behind NLP
 
