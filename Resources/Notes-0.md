@@ -88,7 +88,17 @@ Vectors are essential in ML and NLP as they represent data points, features, or 
 + Eigenvectors and Eigenvalues: These concepts are vital for understanding linear transformations, stability in systems, and dimensionality reduction methods. PCA uses eigenvectors and eigenvalues to identify the principal components of the data.
 
 ### Probability/Statistics
+## Random Variables and Distributions
+In ML, data is often modeled as random variables, and probability distributions describe the likelihood of different outcomes. Understanding distributions, such as Gaussian (normal) distribution, is essential for probabilistic models and assumptions.
 
++ Bayes' Theorem: A fundamental concept in probabilistic reasoning, Bayes' theorem helps update the probability of a hypothesis as more evidence is gathered. It's the basis for many ML algorithms, including Naive Bayes classifiers.
++ Conditional Probability: This concept is crucial for understanding dependencies between variables. In NLP, it's used in language models to predict the probability of a word given previous words in a sentence (e.g., Markov models).
+
+## Statistics
+Measures like mean, variance, and standard deviation describe and summarize data. Understanding these is critical for preprocessing data and interpreting ML model outputs.
+
++ Hypothesis Testing: This involves making inferences about populations based on sample data, using tests like t-tests or chi-square tests to determine statistical significance. This is often used in feature selection and model evaluation.
++ Correlation and Covariance: These measure the relationships between variables. Covariance is used in PCA for dimensionality reduction, while correlation measures the strength of the relationship between two variables, informing feature selection in ML models.
 
 ### Multivariable Calculus
 
