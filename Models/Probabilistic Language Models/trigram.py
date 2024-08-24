@@ -1,5 +1,5 @@
 import nltk
-from nltk import trigrams, ngrams
+from nltk import trigrams
 from nltk.corpus import reuters
 from collections import defaultdict
 
