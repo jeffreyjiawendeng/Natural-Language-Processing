@@ -101,7 +101,19 @@ Measures like mean, variance, and standard deviation describe and summarize data
 + Correlation and Covariance: These measure the relationships between variables. Covariance is used in PCA for dimensionality reduction, while correlation measures the strength of the relationship between two variables, informing feature selection in ML models.
 
 ### Multivariable Calculus
+## Differentiation
+Calculus, particularly differentiation, underpins optimization in ML. Derivatives measure how a function changes as its input changes, and partial derivatives are used to calculate gradients in gradient descent.
 
++ Chain Rule: In backpropagation, the chain rule of calculus is used to compute gradients of composite functions. This is crucial for training deep neural networks, where the output of one layer is the input to the next.
+
+## Integration
+Although less prominent than differentiation, integration appears in calculating areas under curves, such as in probability distributions (e.g., cumulative distribution functions) and in some regularization techniques.
+
+## Optimization
+An iterative optimization algorithm used to minimize loss functions in ML models, particularly in neural networks. It involves taking steps proportional to the negative of the gradient (partial derivative) of the function at the current point to find the function's minimum.
+
++ Convex Optimization: Many ML problems are framed as optimization problems. Convex functions, where any local minimum is a global minimum, are particularly desirable because they guarantee the optimal solution can be found efficiently.
++ Regularization: Techniques like L1 and L2 regularization add penalty terms to the loss function to prevent overfitting by constraining the magnitude of the model parameters. This encourages simpler models that generalize better.
 
 For more information:
 [^1]: https://medium.com/nlplanet/two-minutes-nlp-33-important-nlp-tasks-explained-31e2caad2b1b
