@@ -115,5 +115,14 @@ An iterative optimization algorithm used to minimize loss functions in ML models
 + Convex Optimization: Many ML problems are framed as optimization problems. Convex functions, where any local minimum is a global minimum, are particularly desirable because they guarantee the optimal solution can be found efficiently.
 + Regularization: Techniques like L1 and L2 regularization add penalty terms to the loss function to prevent overfitting by constraining the magnitude of the model parameters. This encourages simpler models that generalize better.
 
+### Other Important Mathematical Concepts
+## Information Theory
++ Entropy: Entropy measures the uncertainty or randomness in a system. In ML, it's used to quantify the amount of information or uncertainty in predictions, such as in decision trees where entropy guides the splitting of nodes.
++ Kullback-Leibler (KL) Divergence: A measure of how one probability distribution diverges from a second, reference distribution. It's used in various ML algorithms, particularly in tasks like distribution fitting and variational inference.
+
+## Regression Models
++ Linear Regression: A foundational model that estimates the relationship between a dependent variable and one or more independent variables by fitting a linear equation. The simplicity of linear regression makes it a building block for more complex models.
++ Logistic Regression: Extends linear regression to classification problems by modeling the probability that a given input belongs to a particular category using a logistic function.
+
 For more information:
 [^1]: https://medium.com/nlplanet/two-minutes-nlp-33-important-nlp-tasks-explained-31e2caad2b1b
