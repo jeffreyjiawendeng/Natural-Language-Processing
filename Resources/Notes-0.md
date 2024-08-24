@@ -1,12 +1,12 @@
 # Introduction to Natural Language Processing
-## Natural Language Processing
+## Natural Language Processing (NLP)
 > [!WARNING]
 > The following series of notes assume basic programming skills (python) and mathematical skills (multivariable calculus and linear algebra).
 
 > [!NOTE]
 > Multiple sources and papers will be cited at the bottom of each page. Feel free to check them out and learn about the material for yourself :p
 
-[Natural language processing (NLP)](https://en.wikipedia.org/wiki/Natural_language_processing) is an interdiciplinary subfield of [artificial intelligence](https://en.wikipedia.org/wiki/Artificial_intelligence) and [linguistics](https://en.wikipedia.org/wiki/Linguistics). Natural languages (or ordinary languages) are languages that have evolved naturally through human use. NLP primarily concerns the ability for computers to process information that is encoded into natural languages. 
+[Natural language processing](https://en.wikipedia.org/wiki/Natural_language_processing) is an interdiciplinary subfield of [artificial intelligence](https://en.wikipedia.org/wiki/Artificial_intelligence) and [linguistics](https://en.wikipedia.org/wiki/Linguistics). Natural languages (or ordinary languages) are languages that have evolved naturally through human use. NLP primarily concerns the ability for computers to process information that is encoded into natural languages. 
 
 ### Some low level tasks of NLP include the following: 
 + tokenization
@@ -43,7 +43,7 @@ In the early 2000s, neural networks began to revolutionize NLP, starting with Yo
 + [Recurrent neural network based language model - Tomáš Mikolov, 2010](https://gwern.net/doc/ai/nn/rnn/2010-mikolov.pdf)
 + [Attention Is All You Need - Ashish Vaswani, 2017](https://arxiv.org/pdf/1706.03762)
 
-## Important Machine Learning Techniques
+## Important Machine Learning (ML) Techniques
 ### Supervised Learning
 Supervised learning is a machine learning approach where algorithms build a model based on a dataset containing both inputs and corresponding desired outputs, known as labels. The model iteratively optimizes its predictions by learning the relationship between input features and outputs through a process of minimizing error. For example, in NLP, a model might be trained for sentiment analysis to classify movie reviews as "positive" or "negative" based on labeled examples. Common supervised learning tasks include classification, where outputs are discrete categories, and regression, where outputs are continuous values. The effectiveness of supervised learning hinges on the quality and quantity of labeled data, which can be resource-intensive to obtain.
 
@@ -77,6 +77,21 @@ Deep learning is a subset of machine learning that involves training models with
 <img src="/assets/deep-learning-model.png" width="600" justify-content="center">
 
 ## The Mathematics Behind NLP
+ML and NLP rely heavily on mathematical concepts to model, analyze, and process data. Key mathematical areas include linear algebra, probability/statistics, and multivariable calculus.
+
+### Linear Algebra
+## Vectors and Matrices
+Vectors are essential in ML and NLP as they represent data points, features, or word embeddings in high-dimensional spaces. Matrices, collections of vectors, are used to represent datasets, transformations, or relationships between variables.
+
++ Dot Product and Cosine Similarity: The dot product of vectors is crucial for measuring similarity between data points, which is particularly important in tasks like clustering and classification. Cosine similarity, derived from the dot product, is commonly used in NLP to measure the similarity between two text documents.
++ Matrix Multiplication: This operation is fundamental in linear transformations, neural networks (e.g., weight matrices in layers), and dimensionality reduction techniques like Principal Component Analysis (PCA).
++ Eigenvectors and Eigenvalues: These concepts are vital for understanding linear transformations, stability in systems, and dimensionality reduction methods. PCA uses eigenvectors and eigenvalues to identify the principal components of the data.
+
+### Probability/Statistics
+
+
+### Multivariable Calculus
+
 
 For more information:
 [^1]: https://medium.com/nlplanet/two-minutes-nlp-33-important-nlp-tasks-explained-31e2caad2b1b
