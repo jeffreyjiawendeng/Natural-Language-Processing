@@ -16,3 +16,4 @@ Much love from jeff <3
 
 > [!Caution]
 > Many of the resources provided are written by a mere undergraduate student with access to the internet. Be weary of outdated, ethically questionable, and downright incorrect information. If you are more experienced in the field than I am, please contact me to correct any issues or concerns found in this repository. Thank you!
+> Additionally, due to my large amount of coursework, this repository will be updated more in the future as I study the field more in depth (2025-2026).
